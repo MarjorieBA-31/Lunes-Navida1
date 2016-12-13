@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="container-fluid">
+        <h1>Hello World!</h1>
+        <p>Resize the browser window to see the effect.</p>
+        <div class="row">
+            <div class="col-sm-4" style="background-color:lavender;">
+                <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+            </div>
+            <div class="col-sm-4" style="background-color:lavenderblush;">
+                <img id="myImage" src="pic_bulboff.gif" style="width:100px">
+            </div>
+            <div class="col-sm-4" style="background-color:lavender;">
+                <button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

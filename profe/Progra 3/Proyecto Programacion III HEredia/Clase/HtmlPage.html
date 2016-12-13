@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script src="JavaScript.js"></script>
+    <script>
+        function Sumar()
+        {
+            var num1 = document.getElementById('Text1').value;
+            alert(num1);
+            var num2 = document.getElementById('Text2').value;
+            var res = parseInt(num1) * parseInt(num2);
+            document.getElementById('Text3').value = res.toString();
+            alert(res);
+            return res;
+        }
+    </script>
+</head>
+<body>
+   <form>
+        Num1:<input id="Text1" type="text" />
+        <br />
+        Num2:<input id="Text2" type="text" />
+        <br />
+        Res:<input id="Text3" type="text" />
+        <br />
+        <input type="button" onclick="Sumar()" value="sumar"/>
+    </form>
+    
+
+</body>
+</html>
